@@ -1,0 +1,88 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+
+header nav > * {
+  float:right;
+  height: 5px;
+  width: 50%;
+    margin: 0;
+  list-style: none;
+  
+  }
+  
+  header nav li{
+    float: right;
+    width: 10%;
+  }
+
+
+header {
+
+height: 5px;
+background: blue;
+color:white;
+padding: 15px;
+
+}
+a {
+  color: white;
+
+}
+.strawberries{
+  height: 500px;
+  width: 100%;
+  border: 1px solid blue;
+  background: blue;
+  color:white;
+  text-align: left;
+  padding: 15px;
+}
+
+section ul *{
+    display: inline;
+    list-style: none;
+
+    padding: 0 1%;
+}
+
+.oatmeal{
+    height: 500px;
+    float:right;
+    width: 50%;
+    
+    color:blue;
+    text-align: right;
+    padding: 15px;
+    margin: 5% 5% 0 0;
+  }
+  

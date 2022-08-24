@@ -1,0 +1,63 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+
+header nav *{
+    float: left;
+    width: 20%;
+    margin: 0 5%;
+    list-style: none;
+}
+
+header nav li {
+    float: left;
+    width: 29%;
+    padding: 0;
+    }
+
+nav {
+    width: 100%;
+}
+
+
+
+
+
+.center {
+    margin: 0;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+
+section{
+    padding: 55px 200px;
+    color:white;
+    background: #7393B3;
+    height: 300px;
+    text-align:center;
+    width: 100%;
+}
+.section1{
+    padding: 55px 200px;
+    color:white;
+    height: 300px;
+    text-align:center;
+    width: 100%;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/

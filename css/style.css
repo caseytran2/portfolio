@@ -1,0 +1,31 @@
+
+h1{
+    text-align:center;
+}
+
+nav{
+    text-align:center;
+    color: gray;
+    
+}
+a{
+    color:green;
+    text-decoration: none;
+}
+section {
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid limegreen;
+    width: 600px;
+}
+body{
+    background-color: lightblue;
+    color: white;
+    font-size: 25px;
+}
+
+img {
+    float:right;
+    height: 240px;
+  width: 200px;
+}

@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+
+}
+    footer,header{
+    height:100px;
+    border: 2px solid black;
+    clear: both;
+}
+
+.first{
+    height:300px;
+    width: 40%;
+    border: 3px solid black;
+    float:left;
+}
+
+.second{
+    height:300px;
+    width: 60%;
+    border: 3px solid black;
+    float:left;
+}
+
+
+@media screen and (max-width: 600px) {
+    .first, .second{
+      background: green;
+      float: none;
+      width:100%;
+    }
+    footer,header{
+      width: 100%;
+    }
+  }

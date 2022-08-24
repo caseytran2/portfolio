@@ -1,0 +1,114 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+
+header nav > * {
+  float:left;
+  width: 10%;
+  margin: 0;
+  list-style: none;
+ 
+  }
+  
+  header nav li{
+    float: left;
+    width: 50%;
+  }
+
+.logo{
+  padding: 0 40%;
+}
+
+.donate{
+  padding: 0;
+  width: 4%;
+
+}
+header {
+
+height: 50px;
+background: blue;
+color:white;
+padding: 15px;
+
+}
+a {
+  color: white;
+
+}
+section{
+  height: 200px;
+  border: 1px solid blue;
+  background: blue;
+  color:white;
+  text-align: center;
+}
+
+.secondtable{
+  background: white;
+  color:blue;
+  border: none;
+padding: 0 400px;
+}
+
+.thirdtable{
+  height: 250px;
+ padding: 2% 14%;
+}
+.box{
+
+  float: left;
+  width: 50%;
+  text-align: center;
+  border: none;
+}
+.links{
+  padding: 2% 5%;
+  float: left;
+  width: 17%;
+  list-style: none;
+}
+
+.address{
+  padding: 2% 90%;
+
+float: none;
+
+
+}
+
+footer{
+  height: 500px;
+  background:blue;
+  padding: 2% 14%;
+  
+}
